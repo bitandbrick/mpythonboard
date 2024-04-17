@@ -1,6 +1,7 @@
-site_name: mpython
+site_name: mPython
 site_url: https://github.com/bitandbrick/mpython_mkdocs.git
 theme:
+  favion: 'favicon.svg'
   name: material
   features:
     - navigation.tabs
@@ -26,7 +27,6 @@ theme:
         name: Switch to light mode    
       primary: teal
       accent: lime
-  favion: 'favicon.ico'
 
 plugins:
   - search

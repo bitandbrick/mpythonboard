@@ -1,5 +1,7 @@
 # Homepage
 
+![mpython board](images/mpython0.png)<br>
+
 The mPython control board is a MicroPython microcontroller board that integrates the ESP32 high-performance dual-core chip and uses the most popular Python programming language so that you can easily transfer code from the computer to the control board and experience the endless fun of program creation!
 
 
