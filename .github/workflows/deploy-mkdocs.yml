@@ -30,3 +30,6 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./site  # Default MkDocs build output directory
         cname: mpython.bitandbrick.com
+        
+- name: Copy .nojekyll to site directory
+  run: cp .nojekyll site/
