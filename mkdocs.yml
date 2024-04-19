@@ -57,9 +57,6 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-width:
-  cname: mpython.bitandbrick.com
-
 
 copyright: |
   &copy; 2024 <a href="https://github.com/bitandbrick"  target="_blank" rel="noopener">Murtaza</a>
