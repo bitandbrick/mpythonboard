@@ -1,4 +1,4 @@
-mPython Board
+mPython Board V2
 Welcome to use mPython Board！
 
 mPython Board is an educational tool for students to enhance their programming learning experience. Development based on education-centric with participation and input from STEAM/ICT Educators, and also expertise contribution from STEAM (MAKER) Education Industrial.
