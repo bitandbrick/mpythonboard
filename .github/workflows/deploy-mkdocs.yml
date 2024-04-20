@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - gh-pages # Set this to the branch name from which you want to deploy
+      - main # Set this to the branch name from which you want to deploy
 
 jobs:
   deploy:
@@ -24,5 +24,5 @@ jobs:
       uses: peaceiris/actions-main
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./site
+        publish_dir: ./sec
         cname: mpythonboard.bitandbrick.com  # Ensure your CNAME matches your subdomain
