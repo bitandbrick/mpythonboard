@@ -28,9 +28,9 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site  # Default MkDocs build output directory
+        publis_dir: ./site  # Default MkDocs build output directory
+        cname: mpython.bitandbrick.com
 
-cname: mpython.bitandbrick.com
-        
+
 - name: Copy .nojekyll to site directory
   run: cp .nojekyll site/
