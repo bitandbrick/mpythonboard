@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - docs # Set this to the branch name from which you want to deploy
+      - gh-pages # Set this to the branch name from which you want to deploy
 
 jobs:
   deploy:
