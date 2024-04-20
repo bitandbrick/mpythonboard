@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main  # Set this to the branch name from which you want to deploy
+      - main  # This should match the branch you use for development
 
 jobs:
   deploy:
@@ -14,12 +14,12 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # Set this to the Python version you need
+        python-version: '3.8'  # Adjust the Python version as necessary
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install mkdocs mkdocs-material  # Install MkDocs and any themes/plugins you need
+        pip install mkdocs mkdocs-material  # Install MkDocs and any necessary plugins
 
     - name: Build the MkDocs site
       run: mkdocs build --verbose
@@ -28,4 +28,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./site  # Default MkDocs build output directory
+        publish_dir: ./site
+        cname: mpython.bitandbrick.com
