@@ -28,7 +28,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publis_dir: ./site  # Default MkDocs build output directory
+        publish_dir: ./site  # Corrected typo here        
         cname: mpython.bitandbrick.com
 
 
