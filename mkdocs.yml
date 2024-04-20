@@ -28,6 +28,11 @@ theme:
       primary: teal
       accent: lime
 
+nav:
+  - Homepage: 'index.md'
+  - Getting Started: gettingstarted.md
+  - Advanced Tutorial: advancedtutorial.md
+
 plugins:
   - search
 
