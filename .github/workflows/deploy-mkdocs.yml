@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main # Set this to the branch name from which you want to deploy
+      - /main # Set this to the branch name from which you want to deploy
 
 jobs:
   deploy:
