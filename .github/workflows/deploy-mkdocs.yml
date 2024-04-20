@@ -21,7 +21,7 @@ jobs:
     - name: Build MkDocs site
       run: mkdocs build --verbose
     - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peaceiris/actions-main
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         publish_dir: ./site
