@@ -3,7 +3,7 @@ name: Deploy MkDocs Site
 on:
   push:
     branches:
-      - main  # This should match the branch you use for development
+      - gh-pages # This should match the branch you use for development
 jobs:
   deploy:
     runs-on: ubuntu-latest
