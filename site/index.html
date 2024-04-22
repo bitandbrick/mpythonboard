@@ -345,21 +345,6 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Technical Parameters">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#expand-interface" class="md-nav__link">
-    <span class="md-ellipsis">
-      Expand interface
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
 </li>
       
     </ul>
@@ -429,40 +414,136 @@
 <p><img alt="mpython board" src="images/mpython0.png" /><br></p>
 <p>The mPython control board is a MicroPython microcontroller board that integrates the ESP32 high-performance dual-core chip and uses the most popular Python programming language so that you can easily transfer code from the computer to the control board and experience the endless fun of program creation!</p>
 <h2 id="technical-parameters">Technical Parameters<br></h2>
-<p>The board has the following hardware features:<br></p>
-<p>ESP-32 master control<br>
-Processor: Tensilica LX6 dual-core processor (one core handles high-speed connections; one core handles independent application development)<br />
-Main frequency: up to 240MHz clock frequency<br />
-SRAM: 520KB<br />
-Flash：8MB<br />
-Wi-Fi standards: FCC/CE/TELEC/KCC<br />
-Wi-Fi protocol: 802.11 b/g/n/d/e/i/k/r (802.11n, speed up to 150 Mbps), A-MPDU and A-MSDU aggregation, support 0.4us guard interval<br />
-Frequency range: 2.4~2.5 GHz<br />
-Bluetooth protocol: Compliant with Bluetooth v4.2 BR/EDR and BLE standards<br />
-Bluetooth audio: CVSD and SBC audio Low power consumption: 10uA<br />
-Power supply mode: USB power supply; external power supply;<br />
-Working voltage: 3.3V<br />
-Maximum operating current: 200mA<br />
-Maximum load current: 1000mA<br />
-Take control of the board<br />
-Three-axis accelerometer MSA300: Measuring range: ±2/4/8/16G;<br />
-Six-axis sensor (v2.1.0 and later): QMI8658C (LGA-14) gyroscope: optional range, up to ±2048°/s Three-axis accelerometer: optional range, up to ±16G;<br />
-Geomagnetic sensor MMC5983MA: Measuring range: ±8G range; accuracy 0.4mGs, electronic compass error ±0.5°;<br />
-Geomagnetic sensor MMC5603NJ (v2.2.0 and later versions): 3-axis, minimum resolution is 0.0625mG, ±30G range, pointing accuracy within ±1°;<br />
-Light sensor: Phototransistor ALS-PT19-315C<br />
-Microphone: EM4013BTC1R16B-T0-423<br />
-3 full-color WS2812-2020 RGB-LED lamp beads<br />
-1.3-inch OLED display, supports 16*16 character display, resolution 128x64<br />
-Passive buzzer SMD-050020F-03040N<br />
-Supports 2 physical buttons (A/B) and 6 touch buttons (P/Y/T/H/O/N)<br />
-Supports 1-way alligator clip interface, which can easily connect to various resistive sensors  </p>
-<h3 id="expand-interface">Expand interface</h3>
-<p>20 channels of digital I/O, (supporting 12 channels of PWM and 6 channels of touch input)<br>
-5-channel 12-bit analog input ADC, P0~P4<br />
-1-way external input alligator clip interface: EXT/GND<br />
-Support I2C communication protocol<br />
-Support UART communication protocol<br />
-Support SPI communication protocol  </p>
+<table>
+<thead>
+<tr>
+<th>Technical Parameters</th>
+<th>Specifications</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Processor</td>
+<td>Tensilica LX6 dual-core processor (one core handles high-speed connections; one core handles independent application development)</td>
+</tr>
+<tr>
+<td>Main frequency</td>
+<td>Up to 240MHz clock frequency</td>
+</tr>
+<tr>
+<td>SRAM</td>
+<td>520KB</td>
+</tr>
+<tr>
+<td>Flash</td>
+<td>8MB</td>
+</tr>
+<tr>
+<td>Wi-Fi standards</td>
+<td>FCC/CE/TELEC/KCC</td>
+</tr>
+<tr>
+<td>Wi-Fi protocol</td>
+<td>802.11 b/g/n/d/e/i/k/r (802.11n, speed up to 150 Mbps), A-MPDU and A-MSDU aggregation, support 0.4us guard interval</td>
+</tr>
+<tr>
+<td>Frequency range</td>
+<td>2.4~2.5 GHz</td>
+</tr>
+<tr>
+<td>Bluetooth protocol</td>
+<td>Compliant with Bluetooth v4.2 BR/EDR and BLE standards</td>
+</tr>
+<tr>
+<td>Bluetooth audio</td>
+<td>CVSD and SBC audio Low power consumption: 10uA</td>
+</tr>
+<tr>
+<td>Power supply mode</td>
+<td>USB power supply; external power supply;</td>
+</tr>
+<tr>
+<td>Working voltage</td>
+<td>3.3V</td>
+</tr>
+<tr>
+<td>Maximum operating current</td>
+<td>200mA</td>
+</tr>
+<tr>
+<td>Maximum load current</td>
+<td>1000mA</td>
+</tr>
+<tr>
+<td>Take control of the board</td>
+<td></td>
+</tr>
+<tr>
+<td>Three-axis accelerometer MSA300</td>
+<td>Measuring range: ±2/4/8/16G;</td>
+</tr>
+<tr>
+<td>Six-axis sensor (v2.1.0 and later)</td>
+<td>QMI8658C (LGA-14) gyroscope: optional range, up to ±2048°/s Three-axis accelerometer: optional range, up to ±16G;</td>
+</tr>
+<tr>
+<td>Geomagnetic sensor MMC5983MA</td>
+<td>Measuring range: ±8G range; accuracy 0.4mGs, electronic compass error ±0.5°;</td>
+</tr>
+<tr>
+<td>Geomagnetic sensor MMC5603NJ (v2.2.0 and later versions)</td>
+<td>3-axis, minimum resolution is 0.0625mG, ±30G range, pointing accuracy within ±1°;</td>
+</tr>
+<tr>
+<td>Light sensor</td>
+<td>Phototransistor ALS-PT19-315C</td>
+</tr>
+<tr>
+<td>Microphone</td>
+<td>EM4013BTC1R16B-T0-423</td>
+</tr>
+<tr>
+<td>3 full-color WS2812-2020 RGB-LED lamp beads</td>
+<td></td>
+</tr>
+<tr>
+<td>1.3-inch OLED display</td>
+<td>Supports 16*16 character display, resolution 128x64</td>
+</tr>
+<tr>
+<td>Passive buzzer</td>
+<td>SMD-050020F-03040N</td>
+</tr>
+<tr>
+<td>Supports buttons</td>
+<td>2 physical buttons (A/B) and 6 touch buttons (P/Y/T/H/O/N)</td>
+</tr>
+<tr>
+<td>Supports interface</td>
+<td>1-way alligator clip interface, which can easily connect to various resistive sensors</td>
+</tr>
+<tr>
+<td>Expand interface</td>
+<td></td>
+</tr>
+<tr>
+<td>Digital I/O channels</td>
+<td>20 channels (supporting 12 channels of PWM and 6 channels of touch input)</td>
+</tr>
+<tr>
+<td>Analog input ADC</td>
+<td>5-channel 12-bit analog input ADC, P0~P4</td>
+</tr>
+<tr>
+<td>External input alligator clip interface</td>
+<td>EXT/GND</td>
+</tr>
+<tr>
+<td>Communication protocols supported</td>
+<td>I2C, UART, SPI</td>
+</tr>
+</tbody>
+</table>
 
 
 
