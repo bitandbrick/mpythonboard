@@ -34,8 +34,10 @@ from mpython import *
 oled.DispChar('hello,world!',0,0)
 oled.show()
 ```
+In block code , 
 
-annotation
+
+![Block Code](olde-1.jpg)
 
 oled.DispChar(str,x,y) stris the string to be displayed, xand , yare the x and y coordinates of the display starting point. Then oled.show()after refreshing the screen with , the string can be displayed on the OLED display. You can try displaying arbitrary strings elsewhere.
 
