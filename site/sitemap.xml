@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/bitandbrick/mpython_mkdocs.git/blockcoding/</loc>
+         <lastmod>2024-04-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/bitandbrick/mpython_mkdocs.git/gettingstarted/</loc>
          <lastmod>2024-04-22</lastmod>
          <changefreq>daily</changefreq>
