@@ -1,6 +1,6 @@
 site_name: mPython
 site_url: https://github.com/bitandbrick/mpython_mkdocs.git
-cname: mpython.bitandbrick.com
+cname: wiki.mpythonboard.com
 theme:
   favion: 'favicon.svg'
   name: material
