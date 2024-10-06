@@ -32,8 +32,8 @@ theme:
 
 nav:
   - Homepage: 'index.md'
-  - Getting Started: gettingstarted.md
-  - Advanced Tutorial: advancedtutorial.md
+  - Hardware: Hardware.md
+  - Software: Software.md
 
 plugins:
   - search
