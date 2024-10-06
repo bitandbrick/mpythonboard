@@ -1,5 +1,5 @@
 site_name: mPython
-site_url: https://github.com/bitandbrick/mpython_mkdocs.git
+site_url: https://github.com/bitandbrick/mpythonboard.git
 cname: wiki.mpythonboard.com
 theme:
   favion: 'favicon.svg'
