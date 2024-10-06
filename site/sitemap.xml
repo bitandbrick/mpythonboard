@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/bitandbrick/mpython_mkdocs.git/</loc>
+         <loc>https://github.com/bitandbrick/mpythonboard.git/</loc>
          <lastmod>2024-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/bitandbrick/mpython_mkdocs.git/advancedtutorial/</loc>
+         <loc>https://github.com/bitandbrick/mpythonboard.git/Hardware/</loc>
          <lastmod>2024-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/bitandbrick/mpython_mkdocs.git/blockcoding/</loc>
+         <loc>https://github.com/bitandbrick/mpythonboard.git/Software/</loc>
          <lastmod>2024-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/bitandbrick/mpython_mkdocs.git/gettingstarted/</loc>
+         <loc>https://github.com/bitandbrick/mpythonboard.git/blockcoding/</loc>
          <lastmod>2024-10-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
