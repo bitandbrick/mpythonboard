@@ -231,3 +231,76 @@ np = neopixel.NeoPixel(Pin(Pin.P15), n=24, bpp=3, timing=1)
 If you need to use an external ribbon, you must first create a neopixel object, define the parameters pin, and then control the LED on the ribbon through the object. For more detailed usage, please refer to the neopixel module.
 
 Hint: mPyhton provides an enhanced version of the neopixel module, which is encapsulated with richer neopixel display effects and is easy to operate. For detailed instructions, please visit bitandbrick tutorials
+
+wiki.mpythonboard.com
+    wiki_Home Page|wiki_Hardware|wiki_Software
+
+Hardware Overview — mPython board 2.2.2 documentation
+
+
+The python board is a micropython microcontroller board with full support for Micropython/Python software features.
+
+Technical Specifications
+
+mPython board has the following hardware features : 
+
+ESP32 MIcrocontroller 
+Processor : Tensilica LX6 dual core microprocessor(one for handling high speed connections and other for independent application development.) 
+Main frequency :upto 240 MHz clock frequency.
+Flash 8MB
+Wi-Fi Standard : FCC/CE/TELEC/KCC
+Wi_Fi Alliance : 802.11 b/g/n/d/e/i/k/r (802.11n,high speed 150 Mbps),A-MPDU and A-MSDU packed,support 0.4us protective interval.
+Frequency Range : 2.4~2.5 GHz
+Bluetooth Protocol : Comply to Bluetooth 4.2 BR/EDR and BLE standard.
+Bluetooth Audio Streaming : CVSD and SBC audio low power :10uA
+Power supply mode : Micro USB
+Operating Voltage :3.3 V
+Maximum Operating System :200mA
+Maximum Load Current : 1000mA
+
+Mpython board Integrated Hardware Specifications
+
+
+3-Axis Accelerometer MSA300,Range ±2/4/8/16G
+Geomagnetic Sensor-MMC5983MA,Range ± Gauss;Accuracy 0.4mG,Electronic Compass Error±0.5°
+Light Sensor
+Microphone
+3x ws2812 LED, RGB
+1.3” OLED Panel, support 16*16 characters display, Resolution 128x64
+Passive Buzzer
+Supports 2x touch switch (User A/B), 1x Reset Button, 6x Touch Button
+Supports 1x crocodile clip interface: resistive sensor input
+           Interface for external device expansion
+20x digital I/O, (it supports 12x PWM, 6x Touch Pad)
+5x 12 bit ADC, P0~P4
+1x external hardware input via crocodile clip interface :EXT/GND
+supports I2C, UART, SPI communication protocol
+
+
+Components and Layout
+
+Python board interface pin configuration
+
+# Sensors
+The mpythonboard is equipped with an AI Camera which is a very unique part of the Mpythonboard,it is also equipped with  a bundle of sensors.
+The sensors are easy to connect.
+It will help students to create and explore different project ideas.
+
+The sensors include humidity and temperature, barometric sensor,force sensor,magnetic fields,pH sensor and conductivity sensor,light,sound,ultrasonic sensors,It also includes vibration sensor,voltage meter,soil moisture,gesture,color,air pressure,joystick and rotate dimmer,it also has RFID sensor.
+The mpythonboard board provides a wide range of sensors which can help explore across all subject area whether it is Physics,Chemistry or Biology giving hand-on experience to the students and making learning more engaging.
+Sensors images link
+##RGB
+mPython Board built-in with three WS2812 LED, WS2812 is a low-power RGB tri-color LED integrated WS2811 driver, an integrated current control chip, it can achieve 256-level brightness display and complete true color display of 16777216 colors. A special single-line communication method is used to control the color of RGB lights, which is easy to use.
+Key buttons-There are two push buttons A and B on the upper edge of the control panel.
+ Low level when the button is pressed, otherwise high level.
+The process of pressing the keys on the control panel A and B is as follows. When pressed, the level changes from high to low, and the moment when the high level (1) changes to the low level (0) is called the falling edge. When the button is released, the level changes from low to high, and the moment when the low level (0) changes to the high level (1) is called the rising edge. We can get the current key state by getting the level change.
+# Touchpad 
+The 6 goldfinger on the front of the mPython Board as touchpads for expansion, indicated as P、Y、T、H、O、N in sequence.
+Microphone -The microphone built-in the mPython Board, use it to perceive the sound changes in the surrounding environment.
+# Light Sensor
+The built-in light sensor on the mPython Board, uses it to sense light changes in the surrounding environment.
+Accelerometer-The acceleration sensor can measure the acceleration due to gravity. During the acceleration process, the sensor uses Newton's second law to obtain the acceleration value by measuring the inertial force received by the mass. The accelerometer on the mPython Board can measure acceleration, with a measurement range of -2g to + 2g.。
+It is a 3-axis measurement of the mPython Board with positive or negative values on each axis. As the positive axis approaches the direction of gravitational acceleration, its value increases toward the positive direction, and conversely decreases toward the negative direction.
+X - Tilt forward and backward.
+Y - Tilt left and right。
+Z - Flip up and down。
