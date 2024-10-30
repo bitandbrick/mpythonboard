@@ -60,6 +60,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - pymdownx.emoji
 
 copyright: |
   &copy; 2024 <a href="https://github.com/bitandbrick"  target="_blank" rel="noopener">Murtaza</a>
