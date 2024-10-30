@@ -2,22 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/bitandbrick/mpythonboard.git/</loc>
-         <lastmod>2024-10-06</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-30</lastmod>
     </url>
     <url>
          <loc>https://github.com/bitandbrick/mpythonboard.git/Hardware/</loc>
-         <lastmod>2024-10-06</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/bitandbrick/mpythonboard.git/Software/</loc>
-         <lastmod>2024-10-06</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-30</lastmod>
     </url>
     <url>
          <loc>https://github.com/bitandbrick/mpythonboard.git/blockcoding/</loc>
-         <lastmod>2024-10-06</lastmod>
-         <changefreq>daily</changefreq>
+         <lastmod>2024-10-30</lastmod>
+    </url>
+    <url>
+         <loc>https://github.com/bitandbrick/mpythonboard.git/software/</loc>
+         <lastmod>2024-10-30</lastmod>
     </url>
 </urlset>
