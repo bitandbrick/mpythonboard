@@ -1,3 +1,65 @@
-site_name: My Documentation
+site_name: mPython
+site_url: https://github.com/bitandbrick/mpythonboard.git
 theme:
-  name: 'mkdocs'
+  favion: 'Control Panel.png'
+  name: material
+  features:
+    - navigation.tabs
+    - instant.loading
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+nav:
+  - Homepage: 'index.md'
+  - Hardware: Hardware.md
+  - Software: Software.md
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/bitandbrick
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/bitnbrick
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/makermurtaza
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/bitandbrick"  target="_blank" rel="noopener">Murtaza</a>
