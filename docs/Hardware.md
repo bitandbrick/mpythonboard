@@ -1,6 +1,6 @@
 ## Getting Started
 
-[Download Software :material-download: ](https://mpythonboard.bitandbrick.com){ .md-button }
+[Download Software ](https://mpythonboard.bitandbrick.com){ .md-button }
 
 # 1. REPL
 One of the main advantages of using MicroPython is the interactive REPL. 
